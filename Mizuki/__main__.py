@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = "Hi {}, my name is {} 👸\n\nI'm a next gen powerful group manager bot. Made by [Janindu 🇱🇰](t.me/imjanindu)\n\nHit /help to find my list of available commands"
+PM_START_TEXT = "Hi {}, 🇱🇰 My Name is {} 👸\n\nI'm am Premium & Powerful Group Manager Bot. Made by [Hansana](t.me/HansanaPrabath) With [Janindu](t.me/ImJanindu)\n\nHit /help to Find My List Of Available Commands"
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
@@ -97,7 +97,7 @@ I'm a group management bot, here to help you get around and keep the order in yo
 
 SAITAMA_IMG = "https://telegra.ph/file/2cdd052cf883e8ace4ffa.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate for developer. This bot runs on heroku so bot slow down some times and developer cannot add more modules due to heroku can't run them.\n\nBetter if my developer recieved a VPS to run the bot. Contact him and help him to continue this.\n\nDeveloper: [@ImJanindu](t.me/imjanindu)"""
+DONATE_STRING = """Heya, Glad To Hear You Want to Donate For Developer. This Bot Runs On Heroku, So Bot Slow Down Some Times And Developer Cannot Add More Modules Due to Heroku Can't Run Them.\n\nBetter If My Developer Recieved a VPS to Run the Bot. Contact Him and Help Him to Continue This.\n\nDeveloper: [@HansanaPrabath](t.me/HansanaPrabath)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -227,12 +227,12 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="📌 Updates Channel",
-                                url="https://t.me/Infinity_BOTs",
+                                url="https://t.me/Easy_Bots",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🇱🇰 Developer", url="https://github.com/imjanindu"
+                                text="🇱🇰 Developer", url="https://github.com/HansanaPrabath"
                             ),
                         ],
                     ]
@@ -588,7 +588,7 @@ def donate(update: Update, context: CallbackContext):
             )
 
             update.effective_message.reply_text(
-                "I've PM'ed you about donating to my creator!"
+                "I've PM'ed you about donating to my Creator!"
             )
         except Unauthorized:
             update.effective_message.reply_text(
