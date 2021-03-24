@@ -95,7 +95,7 @@ I'm a group management bot, here to help you get around and keep the order in yo
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/2cdd052cf883e8ace4ffa.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/d511cc0938e61201f4630.jpg"
 
 DONATE_STRING = """Heya, Glad To Hear You Want to Donate For Developer. This Bot Runs On Heroku, So Bot Slow Down Some Times And Developer Cannot Add More Modules Due to Heroku Can't Run Them.\n\nBetter If My Developer Recieved a VPS to Run the Bot. Contact Him and Help Him to Continue This.\n\nDeveloper: [@HansanaPrabath](t.me/HansanaPrabath)"""
 
@@ -214,7 +214,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="➕ Add Mizuki to your Group",
+                                text="➕ Add Me to your Group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -571,7 +571,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1258909714 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
