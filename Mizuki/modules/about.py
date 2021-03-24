@@ -1,5 +1,5 @@
 __help__ = """
-*Mizuki - A Powerful Telegram Group Manager 🎶
+*Mizuki PRo - A Premium Telegram Group Manager 
 
 Powerful Abilities*
 
@@ -9,8 +9,10 @@ Powerful Abilities*
 
 • Youtube Downloader 🎵
 
-Developer @ImJanindu 🇱🇰
+😊 You Can My All Of The Features Using /help command.
 
-Github [ImJanindu](https://github.com/ImJanindu)"""
+Developer @HansanaPrabath 🇱🇰
+
+Github [Hansana](https://github.com/HansanaDasanayaka)"""
 
 __mod_name__ = "About 🇱🇰"
